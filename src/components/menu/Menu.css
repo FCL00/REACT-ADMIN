@@ -1,0 +1,16 @@
+.menu {
+}
+
+.item {
+  @apply flex flex-col gap-2 mb-4;
+}
+.title {
+  @apply hidden md:block font-semibold text-xl uppercase text-white;
+}
+
+.listItem {
+  @apply md:flex items-center gap-3 p-3 rounded-sm;
+}
+.listItemTitle {
+  @apply hidden md:block;
+}
