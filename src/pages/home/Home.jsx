@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import TopBox from "src/components/topBox/TopBox";
-import LineChart from "src/components/lineChart/LineChartBox";
-import PieChart from "src/components/pieChart/PieChartBox";
-import BarChart from "src/components/barChart/BarChartBox";
-import BigChartBox from "src/components/bigChartBox/BigBoxChart";
+import TopBox from "../../components/topBox/TopBox";
+import LineChart from "../../components/lineChart/LineChartBox";
+import PieChart from "../../components/pieChart/PieChartBox";
+import BarChart from "../../components/barChart/BarChartBox";
+import BigChartBox from "../../components/bigChartBox/BigBoxChart";
 import {
   LineChartTotalUser,
   LineChartTotalRevenue,
@@ -12,7 +12,7 @@ import {
   LineChartTotalRatio,
   barChartBoxRevenue,
   barChartBoxVisit,
-} from "src/data/data";
+} from "../../data/data";
 const home = () => {
   return (
     <div className="home">

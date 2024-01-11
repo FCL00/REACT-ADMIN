@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "src/pages/home/Home";
-import Products from "src/pages/products/Products";
-import Users from "src/pages/users/Users";
-import Navbar from "src/components/navBar/Navbar";
-import Menu from "src/components/menu/Menu";
-import Footer from "src/components/footer/Footer";
+import Home from "./pages/home/Home";
+import Products from "./pages/products/Products";
+import Users from "./pages/users/Users";
+import Navbar from "./components/navBar/Navbar";
+import Menu from "./components/menu/Menu";
+import Footer from "./components/footer/Footer";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const App = () => {
