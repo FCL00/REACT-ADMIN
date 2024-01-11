@@ -60,8 +60,8 @@ This project is a React application that uses Recharts for data visualization an
 
 ### Contributing
 
-    Feel free to contribute by submitting issues or pull requests.
+Feel free to contribute by submitting issues or pull requests.
 
 ### License
 
-    This project is licensed under the MIT License.
+This project is licensed under the MIT License.
